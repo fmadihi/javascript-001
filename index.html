@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <p id="demo">
+            this text will change after clicking the button
+        </p>
+        <button onclick="document.getElementById('demo').innerHTML='Hello
+            world!'">click me!</button>
+
+        <h1>turn on or off the light</h1>
+        <button
+            onclick="document.getElementById('image').src='image/pic_bulboff.gif'">turn
+            off</button>
+        <img id="image" src="./image/pic_bulboff.gif" alt="">
+        <button
+            onclick="document.getElementById('image').src='image/pic_bulbon.gif'">turn
+            on</button>
+
+        <p id="size">change size</p>
+        <button onclick="document.getElementById('size').style.fontSize='50px'">click
+            to change font-size</button>
+            
+        <div id="hide" style="background-color: pink; width: 250px; height:
+            250px;"></div>
+        <button onclick="document.getElementById('hide').style.display='none'">click
+            to hide</button>
+
+            <div>
+                <p id="show" style="display: none;" hidden>this text is hidden before you click the button</p>
+                <button onclick="document.getElementById('show').style.display='block'">click</button>
+            </div>
+    </body>
+</html>
