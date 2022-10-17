@@ -1,6 +1,9 @@
 # javascript-001
 
-I have a class about javascript. I share my lessons here.
+I teach javascript. I share them here.
+
+javascript used in HTML by inline.
+
 First lesson is:
 How javascript work in my project.
 
@@ -11,5 +14,6 @@ Changing font size,
 Hiding an element
 And showing a hidden element 
 With javascript.
+
 
 THANKS...
